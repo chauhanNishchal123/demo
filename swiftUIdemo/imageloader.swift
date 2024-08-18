@@ -27,7 +27,7 @@ struct imageloader: View {
                 }, label: {
                     Image(systemName: "backward").resizable()
                         .frame(width: 30,height: 30)
-                })
+                }).padding()
                
                 Button(action:  {
                     self.isPlaying.toggle()
@@ -37,7 +37,7 @@ struct imageloader: View {
                     Image(systemName: "play")
                         .resizable()
                         .frame(width: 30,height: 30)
-                })
+                }).padding()
                 
                 
                 Button(action:  {
@@ -46,7 +46,7 @@ struct imageloader: View {
                     Image(systemName: "forward")
                         .resizable()
                         .frame(width: 30,height: 30)
-                })
+                }).padding()
             }
         }
     }
