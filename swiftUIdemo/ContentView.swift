@@ -17,6 +17,15 @@ struct ContentView: View {
             Text("for user get response").font(.subheadline)
             Text("for user get response").font(.subheadline)
             Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            Text("for user get response").font(.subheadline)
+            
             TextField("username", text: $name).padding().cornerRadius(5.0).background(Color.gray)
             SecureField("password", text: $password).padding().cornerRadius(5.0).background(Color.brown)
             HStack {
