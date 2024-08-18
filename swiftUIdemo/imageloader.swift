@@ -19,6 +19,12 @@ struct imageloader: View {
                 .cornerRadius(20)
                 .background(Color.gray)
             
+            Image(systemName: "music.note")
+                .resizable()
+                .frame(width: 200,height: 200,alignment: .topLeading)
+                .cornerRadius(20)
+                .background(Color.gray)
+            
             Text(playStatus).font(.caption).foregroundColor(Color.orange).multilineTextAlignment(.center).lineLimit(0).padding(.all, 20.0)
             HStack {
                
